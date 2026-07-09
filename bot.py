@@ -20,9 +20,10 @@ async def mostrar_menu(chat):
 
     await chat.send_message(
         text=(
-            "Oi amore, aqui é a Lia do Cartomancias. 💜\n\n"
+            "Oi amore, aqui é a assistente virtual do Cartomancias. 💜\n\n"
             "Por aqui não aceitamos consultas ainda, mas você pode nos chamar "
-            "pelo nosso site ou pelo WhatsApp que vamos te atender rapidinho!"
+            "pelo nosso site ou pelo WhatsApp que vamos te atender rapidinho! Lembrando que nosso horário de funcionamento é das 10:00 às 00:00 de segunda á sexta-feira. "
+
         ),
         reply_markup=InlineKeyboardMarkup(teclado),
     )
